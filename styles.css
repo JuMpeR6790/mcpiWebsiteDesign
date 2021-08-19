@@ -43,6 +43,20 @@ body {
   background-image: url(images/bg-wool-dark.png);
 }
 
+.wrapper {
+  height: 9.4rem;
+}
+
+.home {
+  width: 100%;
+  height: 38rem;
+}
+
+.home_img {
+  max-width: 100%;
+  max-width: 100%;
+}
+
 @media screen and (min-width: 880px) {
   #logo {
     margin-left: 5rem;
@@ -65,5 +79,9 @@ body {
   #link {
     padding-top: 1rem;
     margin-left: 5rem;
+  }
+
+  .wrapper {
+    height: 7.3rem;
   }
 }
