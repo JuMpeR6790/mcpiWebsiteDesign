@@ -50,6 +50,7 @@ body {
 
 li:hover {
   text-decoration: underline;
+  color: greenyellow;
 }
 
 @media screen and (min-width: 880px) {
