@@ -42,7 +42,7 @@ body {
 }
 
 #link {
-  font-family: mc_reg;
+  font-family: mc_old;
   color: #f7f7f7;
   list-style: none;
   padding: 0.5rem;
@@ -60,9 +60,6 @@ body {
   width: 100%;
   max-height: 39rem;
   background-color: black;
-}
-
-#home {
 }
 
 .home_img {
@@ -88,20 +85,32 @@ p {
   margin: 1rem;
 }
 
-#intro {
-  padding-bottom: 1rem;
-}
-
 .useful_links {
+  padding-bottom: 0.1rem;
   font-size: 1.7rem;
 }
 
-.community {
+.link_list {
   display: inline;
   text-align: center;
   list-style: none;
   color: #efe561;
   font-size: 1.2rem;
+}
+
+.content {
+  padding-bottom: 3rem;
+}
+
+.footer {
+  font-family: mc_old;
+  z-index: 1000;
+  background-image: url(images/bg-wool-dark.png);
+  height: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (min-width: 880px) {
