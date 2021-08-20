@@ -85,6 +85,10 @@ p {
   margin: 1rem;
 }
 
+.intro {
+  padding-bottom: 2rem;
+}
+
 .useful_links {
   padding-bottom: 0.1rem;
   font-size: 1.7rem;
