@@ -88,6 +88,22 @@ p {
   margin: 1rem;
 }
 
+#intro {
+  padding-bottom: 1rem;
+}
+
+.useful_links {
+  font-size: 1.7rem;
+}
+
+.community {
+  display: inline;
+  text-align: center;
+  list-style: none;
+  color: #efe561;
+  font-size: 1.2rem;
+}
+
 @media screen and (min-width: 880px) {
   #logo {
     margin-left: 5rem;
