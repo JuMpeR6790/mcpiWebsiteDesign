@@ -113,6 +113,21 @@ p {
   align-items: center;
 }
 
+#download_intro {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.methods {
+  text-align: left;
+}
+
+.discord_widget {
+  display: block;
+  margin: auto;
+  margin-bottom: 1.8rem;
+}
+
 @media screen and (min-width: 880px) {
   #logo {
     margin-left: 5rem;
@@ -139,5 +154,9 @@ p {
 
   .wrapper {
     height: 7.3rem;
+  }
+
+  .footer {
+    height: 7rem;
   }
 }
