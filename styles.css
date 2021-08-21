@@ -20,7 +20,7 @@
   justify-content: center;
 }
 
-li:hover {
+a:hover {
   text-decoration: underline;
 }
 
@@ -111,6 +111,7 @@ p {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 #download_intro {
@@ -126,6 +127,37 @@ p {
   display: block;
   margin: auto;
   margin-bottom: 1.8rem;
+}
+
+#last_paragraph {
+  margin-bottom: 4rem;
+}
+
+.command-download {
+  border: gray solid 1px;
+  padding: 1px;
+  background-color: black;
+  margin-bottom: 4px;
+}
+
+.server_list {
+  margin-left: 5rem;
+}
+
+#server_intro {
+  margin-top: 2rem;
+  text-align: start;
+  margin-bottom: 1rem;
+}
+
+#server_name {
+  text-align: start;
+  font-weight: bolder;
+  font-size: 1.6rem;
+}
+
+.intro2 {
+  margin-bottom: 2rem;
 }
 
 @media screen and (min-width: 880px) {
