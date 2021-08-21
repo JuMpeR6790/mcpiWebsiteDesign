@@ -165,6 +165,36 @@ p {
   max-height: 100%;
 }
 
+#create_server {
+  text-align: left;
+}
+
+.content5,
+.content2,
+.content3 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+#create_server_title {
+  text-align: left;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+  text-decoration: underline;
+}
+
+#create_server_small_title {
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#last_create_server_paragraph {
+  text-align: left;
+  padding-bottom: 1.7rem;
+}
+
 @media screen and (min-width: 880px) {
   #logo {
     margin-left: 5rem;
@@ -195,5 +225,12 @@ p {
 
   .footer {
     height: 7rem;
+  }
+
+  .content5,
+  .content2,
+  .content3 {
+    margin-left: 12rem;
+    margin-right: 12rem;
   }
 }
